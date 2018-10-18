@@ -1,5 +1,5 @@
 *.iml
-.gradle
+#.gradle
 /local.properties
 /.idea/caches/build_file_checksums.ser
 /.idea/libraries
@@ -9,7 +9,9 @@
 /build
 /captures
 .externalNativeBuild
-*gradle*
-/.gradle
-app/google-services.json
+#*gradle*
+#/.gradle #duplicate
+#app/google-services.json #GitGuardian is overprotective:
+#https://twitter.com/search?q=firebase%20api%20key%20gitguardian&src=typd
+
 
